@@ -1,0 +1,25 @@
+{
+  "name": "@funny-ui/cli",
+  "version": "0.0.1",
+  "description": "funny-ui cli",
+  "type": "module",
+  "main": "./lib/node/bin.js",
+  "bin": {
+    "funny-cli": "./lib/node/bin.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "fs-extra": "^11.1.0",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.11.18"
+  }
+}
