@@ -1,11 +1,11 @@
 {
   "name": "@funny-ui/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "funny-ui cli",
   "type": "module",
-  "main": "./lib/node/bin.js",
+  "main": "./lib/bin.js",
   "bin": {
-    "funny-cli": "./lib/node/bin.js"
+    "funny-cli": "./lib/bin.js"
   },
   "scripts": {
     "dev": "tsc --watch",
